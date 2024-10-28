@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-b#%4)rk%unh&4t^_0*8-z+s@grgw*v#9!gvm!**8@gil86nz=-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['django-thebeginning.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
 EXTERNAL_APPS = [
     'homi',
+    'vegi',
 
 ]
 

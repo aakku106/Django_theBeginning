@@ -17,9 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from homi.views import *
+from vegi.views import *
 
 urlpatterns = [
     path('', homi, name="homi"),
+    path('recipes/', recipes, name="recipes"),
     # path('success-page/', success_page , name="success_page"),
     path('about-page/', about_page, name="About"),
     path('contact-page/', contact_page, name="Contact"),
